@@ -1,9 +1,10 @@
 {
   "name": "restaurant",
   "version": "0.1.0",
-  "homepage": "http://nitesh-g.github.io/restaurant",
+  "homepage": "https://nitesh-g.github.io/restaurant",
   "private": true,
   "dependencies": {
+    "gh-pages": "^1.1.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-scripts": "0.9.x"
@@ -12,11 +13,11 @@
     "gh-pages": "^1.1.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   }
 }
