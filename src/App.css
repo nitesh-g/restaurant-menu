@@ -1,0 +1,26 @@
+.App-header h2 {
+    text-align: center;
+}
+
+.MenuList-Wrapper{
+    margin-right: 20px;
+}
+
+
+.MenuList-Wrapper div ul li {
+    text-transform: capitalize;
+}
+
+.MenuList-Wrapper div ul li:hover {
+    border: 1px solid black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.description-wrapper {
+
+}
+
+.table thead tr th, .table tbody tr td{
+    padding: 10px;
+}
