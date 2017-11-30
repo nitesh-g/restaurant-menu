@@ -30,7 +30,7 @@ class App extends Component {
     }
 
     handleSelected(value) {
-      axios.get(`http://davids-restaurant.herokuapp.com/menu_items.json?category=${value}`)
+      axios.get(`https://davids-restaurant.herokuapp.com/menu_items.json?category=${value}`)
             .then((response) => {
                 if(response.data){
               var categoryDescription = response.data
